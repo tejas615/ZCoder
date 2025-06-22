@@ -4,11 +4,8 @@ An interactive platform for developers to build and manage coding profiles, save
 
 ## Features
 
-- **User Profiles**: Store personal info such as tech stack and competitive ratings.
-- **Problem Management**: Save, update, and share coding problems; choose between public or private visibility.
-- **Discussion**: Comment on public problems within the community.
+- **User Profiles**: Store personal info such as Github Link and Codeforces Id.
 - **Contest Tracker**: View upcoming programming contests and integrate them into a personal calendar.
-- **Community Feed**: Follow popular public problems across the community.
 
 ## Tech Stack
 
@@ -63,7 +60,6 @@ An interactive platform for developers to build and manage coding profiles, save
 ## Usage
 
 - Register or log in to create and customize your developer profile.
-- Add coding problems via the Problem module.
 - Interact with public problems through likes, comments, and ratings.
 - Follow upcoming contests listed in your personal calendar.
 

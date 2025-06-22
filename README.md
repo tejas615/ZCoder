@@ -42,17 +42,7 @@ An interactive platform for developers to build and manage coding profiles, save
     cd ..
     ```
 
-3. **Configure environment variables**
-
-    Create a `.env` file inside `/server`:
-
-    ```env
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
-    PORT=5000  # or your preferred port
-    ```
-
-4. **Run the application**
+3. **Run the application**
 
     Open two terminal sessions:
 

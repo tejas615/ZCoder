@@ -1,4 +1,4 @@
-# zcoder-platform
+# ZCoder Platform
 
 An interactive platform for developers to build and manage coding profiles, save/share coding problems, follow contest calendars, and engage with a community feed.
 

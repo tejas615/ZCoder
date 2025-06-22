@@ -52,7 +52,7 @@ An interactive platform for developers to build and manage coding profiles, save
     **Frontend:**
     ```bash
     cd client
-    npm start
+    npm run dev
     ```
 
     The backend runs on `http://localhost:5000` by default, and the React app runs on `http://localhost:3000`.

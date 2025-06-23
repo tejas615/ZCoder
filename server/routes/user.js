@@ -133,9 +133,11 @@ userRouter.post('/signin', async (req, res) => {
 })
 
 userRouter.get('/details', async (req,res) => {
-    const data = req.headers.authorization;
-    // console.log(data);
-    const token = data.split(" ")[1];
+    const authHeader = req.headers.authorization;
+    if (!authHeader) {
+    return res.status(401).json({ error: 'No authorization header' });
+    }
+    const token = authHeader.split(" ")[1];
 
     try{
         const decoded = jwt.verify(token, JWT_SECRET);

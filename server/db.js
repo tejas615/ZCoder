@@ -1,7 +1,10 @@
 const mongoose = require('mongoose');
 
 
-mongoose.connect("mongodb+srv://chintaviraj09:P%40ssw0rd@cluster0.rqtkle3.mongodb.net/Zcoder?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://zcoder:zcoder@cluster0.vyzvduq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{
+  useNewUrlParser: true,
+  useUnifiedTopology: true, // required to avoid topology errors
+})
   .then(() => console.log("✅ Connected to MongoDB Atlas"))
   .catch((err) => console.error("❌ MongoDB connection error:", err.message));
 

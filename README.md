@@ -6,6 +6,7 @@ An interactive platform for developers to build and manage coding profiles, save
 
 - **User Profiles**: Store personal info such as Github Link and Codeforces Id.
 - **Contest Tracker**: View upcoming programming contests and integrate them into a personal calendar.
+- **Problem Management**: You can bookmark problems and mark them as solved for easy tracking.
 
 ## Tech Stack
 
@@ -60,7 +61,7 @@ An interactive platform for developers to build and manage coding profiles, save
 ## Usage
 
 - Register or log in to create and customize your developer profile.
-- Interact with public problems through likes, comments, and ratings.
+- Explore public coding problems categorized by ratings to enhance and personalize your learning journey.
 - Follow upcoming contests listed in your personal calendar.
 
 
